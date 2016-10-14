@@ -1,0 +1,101 @@
+.container {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+body {
+	margin: 0;
+	color: #fff;
+}
+h2 {
+	margin: 0;
+}
+input {
+	border-radius: .5em;
+}
+/*Header*/
+.header {
+	background: #E53A40;
+	padding: 20px 0 2px 0;
+}
+.header .navbar {
+	margin-top: 25px;
+	margin-right: 60px;
+	list-style: none;
+	text-align: center;
+}
+.header .navbar li {
+	border: 1px solid transparent;
+	display: inline-table;
+	padding: 10px 30px;
+	margin-left: 25px;
+	border-radius: 5em;
+	transition: .3s;
+	cursor: pointer;
+}
+.header .navbar li:hover {
+	border: 1px solid #EFDC05;
+	background: #EFDC05;
+}
+.header .navbar li a {
+	text-decoration: none;
+	color: #fff;
+}
+/*projects*/
+.projects {
+	color: #000;
+	text-align: center;
+	font-size: 19px;
+	padding: 20px;
+}
+img {
+	width: 31%;
+	margin: 5px 6px;
+}
+/*contact*/
+.contact {
+	padding: 20px;
+	font-size: 19px;
+	background: #E53A40;
+}
+.contact h2 {
+	margin: 5px 0 10px 0;
+}
+.contact .form input {
+	height: 40px;
+	margin: 5px auto;
+	padding: 3px;
+	display: block;
+	background: transparent;
+	font-size: 16px;
+	border: 1px solid #fff;
+}
+.contact .form input[type="textarea"] {
+	height: 80px;
+}
+.contact .form input[type="submit"] {
+	padding: 1px;
+	width: 70px;
+}
+.contact .form input[type="submit"]:hover {
+	cursor: pointer;
+	background: #EFDC05;
+}
+a i {
+	font-size: 900px;
+	color: #fff;
+}
+/*footer*/
+.footer p {
+	font-size: 25px;
+	color: #000;
+}
+.footer a {
+	text-decoration: none;
+	color: #006400;
+}
+@media only screen and (max-width: 600px) {
+    li,img {
+		width: 100%;
+	}
+}
